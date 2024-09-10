@@ -59,7 +59,7 @@ def index():
         destination = request.form["destination"]
         fuel_efficiency = float(request.form["fuel_efficiency"])
         fuel_type = request.form["fuel_type"].lower()
-        api_key = 'AIzaSyAMTdWzxutENaSYB9CGsWRPNRRN6Ql0yPY'  # Replace with your Google Maps API key
+        api_key = 'YOUR_API_KEY'  # Replace with your Google Maps API key
         
         # Get the distance using Google Maps API
         distance = get_distance(origin, destination, api_key)
